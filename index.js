@@ -30,3 +30,14 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 });
+
+/*
+ fetch(
+ 'http://localhost:3000/programming-languages',
+ {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ "name":"dart", "released_year": 2011, "githut_rank": 13, "pypl_rank": 20, "tiobe_rank": 25})
+  }
+ ).then(resp => resp.text()).then(console.log)
+ */
