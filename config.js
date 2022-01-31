@@ -6,7 +6,7 @@ const config = {
         host: env.DB_HOST || '127.0.0.1',
         user: env.DB_USER || 'root',
         password: env.DB_PASSWORD || 'qwert123',
-        database: env.DB_NAME || 'sql_inventory',
+        database: env.DB_NAME || 'restapi',
     },
     listPerPage: env.LIST_PER_PAGE || 10,
 };
